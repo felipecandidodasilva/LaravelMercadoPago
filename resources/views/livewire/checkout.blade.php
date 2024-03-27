@@ -1,4 +1,3 @@
-<x-app-layout>
     <div class="bg-tertiary-900">
         <!-- Background color split screen for large screens -->
         <div class="fixed left-0 top-0 hidden h-full w-1/2 bg-tertiary-900 lg:block" aria-hidden="true"></div>
@@ -195,4 +194,3 @@
             </section>
         </div>
     </div>
-</x-app-layout>

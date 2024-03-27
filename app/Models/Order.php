@@ -25,7 +25,7 @@ class Order extends Model {
         'status' => OrderStatusEnum::class
     ];
 
-    public function user(): BelongsTo
+     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
     }
